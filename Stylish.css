@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: underline;
+    text-decoration-color: #5B8DB8;
+}
+h1 {
+    background-color: #1A2A4A;
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: #1A2A4A;
+}
+body {
+    background-color: #F0F2F5
+}
+li {
+    margin-left: 20px;
+}
+
+.Education {
+    background-color: #FFFFFF;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    border: 1px solid #5B8DB8;
+}
+
+.Skills {
+    background-color: #FFFFFF;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    border: 1px solid #5B8DB8;
+    li{
+        margin: 10px;
+    }
+}
+.WorkExperience {
+    background-color: #FFFFFF;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    border: 1px solid #5B8DB8;
+    .JobDescription{
+        margin-left: 20px;
+    }
+    .Job1{
+        background-color:#EEF2F7;
+        border: 1px solid #5B8DB8;
+        margin: 10px;
+        padding : 5px;
+    }
+    .Job2{
+        background-color:#EEF2F7;
+        border: 1px solid #5B8DB8;
+        margin: 10px;
+        padding : 5px;
+    }
+    .Job3{
+        background-color:#EEF2F7;
+        border: 1px solid #5B8DB8;
+        margin: 10px;
+        padding : 5px;
+    }
+}
+
+.Projects {
+    background-color: #FFFFFF;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    border: 1px solid #5B8DB8;
+    li{
+        margin-left: 40px;
+        padding: 2px;
+    }
+    .Project{
+        padding: 10px;
+        background-color:#EEF2F7;
+        border: 1px solid #5B8DB8;
+        margin: 10px;
+    }
+}
