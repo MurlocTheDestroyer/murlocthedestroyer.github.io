@@ -92,17 +92,34 @@ li {
         background-color:#EEF2F7;
         border: 1px solid #5B8DB8;
         margin: 10px;
+        a:visited{
+                color: #0000FF;
+            }
+        a:hover{
+            color: #059be6;
+        }
     
         .links{
-            a {
-                padding: 10px;
-                border: 1px solid #5B8DB8;
-                background-color:#EEF2F7;
-                color: #1A2A4A;
-                width: 200px;
-                display: inline-block;
-
+            padding: 5px;
+            font-size: fit-content;
+            button{
+                background-color: #1f6aac;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 5px;
+                width: 50%;
             }
+            button:hover{
+                background-color: #059be6;
+            }
+            button:active{
+                background-color: #1313bc;
+            }
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
     }
 }
